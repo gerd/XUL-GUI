@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://hello/content/style.css" type="text/css"?>
+<button class="red" label="Not clicked" /> 
+<description class="blue">The text in bold and 150% size </description>
+<window id="someID" title="Hello" width="60" height="60" class="red"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+<description value="Hello World!" />
+</window>

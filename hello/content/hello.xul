@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!-- Extremely recommended to keep this css include!! -->
+<window id="rootWnd" title="Register Online!"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <vbox>
+    <hbox>
+      <image src="application_form.png"/>
+      <description>Register Online!</description>
+    </hbox>
+    <groupbox align="start">
+      <caption label="Your Information"/>
+      <radiogroup>
+        <vbox>
+          <hbox>
+            <label control="your-fname" value="Enter first name:"/>
+            <textbox id="your-fname" value="Johan"/>
+          </hbox>
+          <hbox>
+            <label control="your-lname" value="Enter last name:"/>
+            <textbox id="your-lname" value="Hernandez"/>
+          </hbox>
+          <hbox>
+            <button oncommand="alert('save!')">
+              <description>Save</description>
+            </button>
+          </hbox>
+        </vbox>
+      </radiogroup>
+    </groupbox>
+  </vbox>
+</window>
