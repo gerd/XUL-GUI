@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window id="sample-window"
+        title="Sample"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <vbox>
+        <checkbox label="CheckBox"/>
+        <hbox>
+            <spacer flex="1"/>
+            <button label="OK"/>
+            <button label="Exit"/>
+        </hbox>
+    </vbox>
+</window>
