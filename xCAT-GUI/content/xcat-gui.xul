@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<window id="xCAT-GUI"
+        title="xCAT-GUI"
+        width="400"
+        height="400"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <vbox>
+        <hbox>
+            <label control="username" value="Username:"/>
+            <textbox id="username"/>
+        </hbox>
+        <hbox>
+            <label value="Password:  "/>
+            <textbox id="password"/>
+        </hbox>
+    </vbox>
+          <hbox>
+            <button oncommand="alert('save!')">
+              <description>Save</description>
+            </button>
+          </hbox>
+</window>
