@@ -12,12 +12,12 @@
         </hbox>
         <hbox>
             <label value="Password:  "/>
-            <textbox id="password"/>
+            <textbox id="password" type="password"/>
         </hbox>
     </vbox>
-          <hbox>
-            <button oncommand="alert('save!')">
-              <description>Save</description>
-            </button>
-          </hbox>
+    <hbox>
+        <button oncommand="alert('save!')">
+            <description>Save</description>
+        </button>
+    </hbox>
 </window>
