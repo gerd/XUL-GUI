@@ -4,7 +4,7 @@
         title="xCAT-GUI"
         width="400"
         height="400"
-        ondialogaccept="alert('ok!');"
+        ondialogaccept="onOK();"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
     <vbox>
         <hbox>
@@ -16,4 +16,11 @@
             <textbox id="password" type="password"/>
         </hbox>
     </vbox>
+
+    <script>
+        function onOK() {
+            var text = document.getElementById("username").value;
+            alert( text + document.getElementById("password").value);
+        }
+    </script>
 </dialog>
