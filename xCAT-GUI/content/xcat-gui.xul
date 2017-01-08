@@ -8,6 +8,10 @@
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
     <vbox>
         <hbox>
+            <label value="Host:" width="100"/>
+            <textbox id="host"/>
+        </hbox>
+        <hbox>
             <label control="username" value="Username:" width="100"/>
             <textbox id="username"/>
         </hbox>
@@ -20,7 +24,10 @@
     <script>
         function onOK() {
             var text = document.getElementById("username").value;
-            alert( text + document.getElementById("password").value);
+            alert(document.getElementById("host").value + ':' +
+                  text + ':' +
+                  document.getElementById("password").value);
         }
+        // add first https get request with javascript
     </script>
 </dialog>
