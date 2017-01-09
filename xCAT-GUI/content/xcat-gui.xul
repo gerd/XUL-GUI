@@ -6,6 +6,10 @@
         height="400"
         ondialogaccept="onOK();"
         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/javascript"
+            src="chrome://xCAT-GUI/content/xcat-gui.js"/>
+
     <vbox>
         <hbox>
             <label value="Host:" width="100"/>
@@ -20,14 +24,4 @@
             <textbox id="password" type="password"/>
         </hbox>
     </vbox>
-
-    <script>
-        function onOK() {
-            var text = document.getElementById("username").value;
-            alert(document.getElementById("host").value + ':' +
-                  text + ':' +
-                  document.getElementById("password").value);
-        }
-        // add first https get request with javascript
-    </script>
 </dialog>
