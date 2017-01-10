@@ -4,5 +4,5 @@ function onOK() {
         text + ':' +
         document.getElementById("password").value);
 
-    // add first https get request with javascript
+    // the XMLHttpRequest do not work over SSL
 }
